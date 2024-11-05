@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: rgb(190, 190, 255);
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
